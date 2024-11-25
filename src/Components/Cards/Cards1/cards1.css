@@ -1,0 +1,11 @@
+.cardHover div:first-child{
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
+
+.cardHover:hover div:first-child {
+  border-radius: 5px;
+  scale: 1.05;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
